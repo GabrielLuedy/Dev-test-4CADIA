@@ -1,18 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
+import { BodyComponent } from './body/body.component';
 
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    BodyComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    
   ],
   exports:[
-NavbarComponent
+NavbarComponent,
+BodyComponent
   ]
 })
 export class ModalModule { }
