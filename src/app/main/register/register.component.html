@@ -1,21 +1,25 @@
 <div id="box">
-    <div class="register">
-        <div class="register_img">
+    <div id="register">
+        <div class ="register_item" >
+          <div class ="register_img" > </div>
+          <div>
+            <div class ="register_title" > Criar conta </div>
+        
+            <form class ="formRegister" >
+              <input type ="text" id ="name" placeholder ="Nome completo" />
+              <input type ="email" id ="email" placeholder ="E-mail" /> 
+              <input type ="password" id ="password" name="password" ref="password" placeholder ="Senha" size="10" maxLength="10"  />
+              <input type ="password" id ="password1" name="password1" ref="password1" placeholder ="Repetir a senha"  size="10" maxLength="10"/>  
+        
+              <button class ="btn-1" type ="submit"> Cadastrar com facebook </button>  
+              <button class ="btn" type ="submit" > Cadastrar </button>  
+        
+              
+              <div class ="alignAcc">
+                <a routerLink="/" class ="createAcc"> já tenho cadastro </a> 
+              </div> 
+            </form> 
+          </div> 
+        </div> 
         </div>
-        <form class="register_form">
-            <input type ="text" id ="name" placeholder ="Nome completo" />
-            <input type ="email" id ="email" placeholder ="E-mail"/> 
-            <input type ="password" id ="password" name="password" ref="password" placeholder ="Senha" size="10" maxLength="10"  />
-            <input type ="password" id ="password1" name="password1" ref="password1" placeholder ="Repetir a senha"  size="10" maxLength="10"  />  
-
-            <button class ="btn-1" type ="submit"> Cadastrar com facebook </button>  
-            <button class ="btn" type ="submit" > Cadastrar </button>  
-
-            <label>  </label>   
-            <div class ="alignAcc">
-              <a  routerLink="/" class ="createAcc"> já tenho cadastro </a> 
-            </div>
-
-        </form>
-    </div>
-</div>
+        

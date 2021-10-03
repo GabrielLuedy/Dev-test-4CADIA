@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SidebarComponent } from './sidebar.component';
+import { WithdrawComponent } from './withdraw.component';
 
-describe('SidebarComponent', () => {
-  let component: SidebarComponent;
-  let fixture: ComponentFixture<SidebarComponent>;
+describe('WithdrawComponent', () => {
+  let component: WithdrawComponent;
+  let fixture: ComponentFixture<WithdrawComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SidebarComponent ]
+      declarations: [ WithdrawComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SidebarComponent);
+    fixture = TestBed.createComponent(WithdrawComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,21 +1,26 @@
 <div id="box">
-    <div class="login">
-        <div class="login_img">
-        </div>
-        <form class="input_form">
-            <input type="email" id="email" placeholder="E-mail" />
+<div id="login">
+    <div class = "login_item">
+      <div class = "login_img"></div>
+      <div>
+        <div class = "login_title"> LOGIN </div>
+        
+        <form class = "formLogin" >
+          <input type = "email" id = "email" placeholder = "E-mail"  /> 
 
-            <input type="password" id="password" placeholder="Senha" autoComplete="password" />
+          <input type = "password" id = "password" placeholder = "Senha" autoComplete = "password" /> 
 
-            <div class="savePassword">
-                <input type="checkbox" id="checkbox" />
-                <label class="remember"> Lembrar minha senha </label>
-            </div>
-            <a routerLink="/sign_in" class="btn" type="submit"> Entrar </a>
-            <label> </label>
-            <div class="alignAcc">
-                <a routerLink='/register' class="createAcc">criar conta</a>
-            </div>
+          <div class = "savePassword">
+            <input type = "checkbox" id = "checkbox" />
+            <label class = "remember" > Lembrar minha senha </label>  
+          </div>
+          <a routerLink="/sign_in" class = "btn" type = "submit" > Entrar </a> 
+          
+          <div class="alignAcc">
+            <a routerLink="/register" class="createAcc">criar conta</a>
+          </div>
         </form>
+      </div>
     </div>
+  </div>
 </div>
