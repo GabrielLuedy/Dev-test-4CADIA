@@ -14,13 +14,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { WithdrawComponent } from './withdraw/withdraw.component';
+import { ExtractComponent } from './extract/extract.component';
 
 @NgModule({
   declarations: [
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    WithdrawComponent
+    WithdrawComponent,
+    ExtractComponent,
+    
   ],
   imports: [
     CommonModule,

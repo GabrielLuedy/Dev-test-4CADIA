@@ -1,3 +1,4 @@
+import { ExtractComponent } from './main/extract/extract.component';
 import { WithdrawComponent } from './main/withdraw/withdraw.component';
 import { HomeComponent } from './main/home/home.component';
 import { RegisterComponent } from './main/register/register.component';
@@ -9,7 +10,9 @@ const routes: Routes = [
   { path: "sign_in", component: HomeComponent },
   { path: "", component: LoginComponent },
   { path: "register", component: RegisterComponent },
-  { path: "withdraw", component: WithdrawComponent,outlet:'aux'}
+  { path: "withdraw", component: WithdrawComponent},
+  { path: "extract", component: ExtractComponent},
+
 ];
 
 @NgModule({

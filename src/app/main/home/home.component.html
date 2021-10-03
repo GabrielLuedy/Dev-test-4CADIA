@@ -5,8 +5,8 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a [routerLink]="['/withdraw', {outlets: {aux: 'chat'}}]">csssss</a>
-      <a mat-list-item routerLink="/">Link 3</a>
+      <a mat-list-item routerLink="/withdraw">csssss</a>
+      <a mat-list-item routerLink="/extract">Link 3</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -22,7 +22,7 @@
       <span>testCadia</span>
     </mat-toolbar>
    <div>
-      <router-outlet name='aux'></router-outlet>
+     <ng-content></ng-content>
   </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
