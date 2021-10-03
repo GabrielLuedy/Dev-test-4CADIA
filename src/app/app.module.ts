@@ -13,6 +13,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import {MatTableModule} from '@angular/material/table';
 
 import { AppComponent } from './app.component';
 
@@ -35,7 +36,8 @@ import { AppComponent } from './app.component';
     LayoutModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatTableModule
   ],
   exports:[
     MatIconModule,    
@@ -43,7 +45,8 @@ import { AppComponent } from './app.component';
     MatSliderModule,   
     MainModule,
     MatToolbarModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatTableModule
   ],
 
   providers: [],

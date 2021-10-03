@@ -1,3 +1,4 @@
+import { MatTableModule } from '@angular/material/table';
 import { AppRoutingModule } from './../app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
@@ -36,8 +37,8 @@ import { ExtractComponent } from './extract/extract.component';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
-    AppRoutingModule
-
+    AppRoutingModule,
+    MatTableModule
   ],
   exports:[
     LoginComponent,
