@@ -14,8 +14,11 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
+
 import { WithdrawComponent } from './withdraw/withdraw.component';
 import { ExtractComponent } from './extract/extract.component';
+import { BodyHomeComponent } from './body-home/body-home.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,7 @@ import { ExtractComponent } from './extract/extract.component';
     HomeComponent,
     WithdrawComponent,
     ExtractComponent,
+    BodyHomeComponent,
     
   ],
   imports: [
@@ -38,13 +42,15 @@ import { ExtractComponent } from './extract/extract.component';
     MatSidenavModule,
     MatListModule,
     AppRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatCardModule
   ],
   exports:[
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    WithdrawComponent
+    WithdrawComponent,
+    BodyHomeComponent
   ]
 })
 export class MainModule { }
