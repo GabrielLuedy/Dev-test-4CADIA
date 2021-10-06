@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "withdraw", component: WithdrawComponent},
   { path: "extract", component: ExtractComponent},
+  { path: "home", component: HomeComponent},
 
 ];
 
