@@ -114,15 +114,17 @@ the information is being used on componet.ts.
 
 # lastly there is the link to logout
 
-tecnologias e programas utilizados 
+technologies and programs used
 
-Tecnologias utilizadas
-* angular
+Technologies used
+* Angular
 
-Programas e linguagens utulizadas
+Programs and languages ​​used
 
 * Visual Code
 * HTML
 * SCSS
 * TypeScript
+
+libraries taken from the "material.angular.io"
 
